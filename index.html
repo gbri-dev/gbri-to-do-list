@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <!--Font Roboto-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!--Estilo-->
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Lista de tarefas</h1>
+    </header>
+    <form>
+      <label for="tarefa" hidden></label>
+      <input type="text" name="tarefa" id="tarefa">
+      <button type="submit" class="btn-primary">Nova tarefa</button>
+    </form>
+    <ul>
+    </ul>
+  </div>
+
+  <script src="./jquery.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
